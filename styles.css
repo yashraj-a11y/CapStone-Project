@@ -1,0 +1,236 @@
+
+html{
+    width: 100vw;
+}
+body{
+    font-family: "Chivo", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+h2, p{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid black;
+    width: 93.5vw;
+}
+
+.header-left-text{
+    font-size: 28px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 23px;
+}
+
+ul{
+    margin: 0;
+}
+
+main{
+    padding: 50px;
+    width: 93.5vw;
+}
+
+.main-heading-div{
+    text-align: center;
+    padding: 100px 150px 25px 150px;
+}
+
+.main-heading{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 48px 0;
+}
+
+.main-flex-img-div{
+    padding: 48px 0 0 0;
+}
+
+.main-flex-left-section{
+    flex: 1;
+}
+
+.main-flex-middle-section{
+    flex: 1;
+}
+
+.main-flex-right-section{
+    flex: 1;
+}
+
+.main-img{
+    border-radius: 56px;
+    /* border-bottom-left-radius: 56px; */
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.flex-img{
+    min-width: 300px;
+    width: 100%;
+}
+
+.main-img-des-div{
+    height: 24px;
+    width: 100%;
+}
+
+.project-des, .project-name{
+    line-height: 20px;
+    font-family: "Archivo",sans-serif;
+    font-weight: 400;
+}
+
+.project-name{
+    font-size: 18px;
+}
+
+.project-des{
+    font-size: 15px;
+}
+
+.main-section{
+    text-align: center;
+    padding: 96px 190px;
+}
+
+.section-text{
+    font-size: 50px;
+    font-weight: 00;
+    line-height: 52px;
+}
+
+.section-txt{
+    font-size: 80px;
+    font-weight: 00;
+    line-height: 92px;
+}
+
+
+.content-holder{
+    text-align: center;
+    margin: 48px 0;
+}
+
+.section-text-div{
+    text-align: center;
+}
+
+
+.section-para{
+    padding: 8px;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Archivo",sans-serif;
+}
+
+.img-holder{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 0 auto; */
+}
+
+.section-img{
+    width: 100%;
+}
+
+.explore{
+    margin-top: 48px;
+    height: 48px;
+    width: 106px;
+    padding: 12px 24px;
+    background-color: #2419F3;
+    color: white;
+    font-family: "Archivo",sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    transition: box-shadow 0.2s;
+}
+
+.explore:hover{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0,0.5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact{
+    padding: 90px;
+}
+
+.contact-header{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-num{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.number-input{
+    height: 32px;
+    width: 27px;
+    padding: 16px 15px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Archivo",sans-serif;
+}
+
+.submit-button{
+    margin: 25px 0;
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2419F3;
+    color: white;
+    font-family: "Archivo",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.skip{
+    text-align: center;
+}
+
+.skip-anchor{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Archivo",sans-serif;
+    /* border: none; */
+}
+
+.skip-anchor:hover{
+    text-decoration: underline;
+}
