@@ -80,7 +80,6 @@ main{
 
 .main-img{
     border-radius: 56px;
-    /* border-bottom-left-radius: 56px; */
     padding-bottom: 50px;
     width: 100%;
 }
@@ -148,89 +147,8 @@ main{
 .img-holder{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* margin: 0 auto; */
 }
 
 .section-img{
     width: 100%;
-}
-
-.explore{
-    margin-top: 48px;
-    height: 48px;
-    width: 106px;
-    padding: 12px 24px;
-    background-color: #2419F3;
-    color: white;
-    font-family: "Archivo",sans-serif;
-    font-size: 15px;
-    border: none;
-    border-radius: 8px;
-    transition: box-shadow 0.2s;
-}
-
-.explore:hover{
-    box-shadow: 2px 2px 7px rgba(0, 0, 0,0.5);
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.contact{
-    padding: 90px;
-}
-
-.contact-header{
-    font-size: 28px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.form-num{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.number-input{
-    height: 32px;
-    width: 27px;
-    padding: 16px 15px;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 400;
-    font-family: "Archivo",sans-serif;
-}
-
-.submit-button{
-    margin: 25px 0;
-    width: 100%;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 8px;
-    background-color: #2419F3;
-    color: white;
-    font-family: "Archivo",sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.skip{
-    text-align: center;
-}
-
-.skip-anchor{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Archivo",sans-serif;
-    /* border: none; */
-}
-
-.skip-anchor:hover{
-    text-decoration: underline;
 }
